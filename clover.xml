@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1510870105">
+  <project timestamp="1510870105">
+    <package name="TakeawayTown\Hospitality">
+      <file name="/var/www/takeawaytown/packages/hospitality/src/HospitalityServiceProvider.php">
+        <class name="HospitalityServiceProvider" namespace="TakeawayTown\Hospitality">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="13" coveredelements="0"/>
+        </class>
+        <line num="27" type="method" name="register" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="35" type="method" name="boot" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <metrics loc="54" ncloc="24" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="13" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="1" loc="54" ncloc="24" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="13" coveredelements="0"/>
+  </project>
+</coverage>
