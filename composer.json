@@ -2,6 +2,19 @@
     "name": "takeawaytown/hospitality",
     "description": "Takeaway Town Hospitality feature library. Enables all the functionality to manage multiple restaurants with menus.",
     "type": "library",
+    "require": {
+        "illuminate/support": "5.2.*|5.3.*|5.4.*|5.5.*"
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "dev-master",
+        "fzaninotto/faker": "~1.4",
+        "laravel/framework": "5.2.*|5.3.*|5.4.*|5.5.*",
+        "mockery/mockery": "dev-master",
+        "orchestra/testbench": "3.4.*@dev",
+        "phpunit/phpunit": "5.5.*|~6.0",
+        "phpunit/php-code-coverage": "^5.2@dev",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -9,6 +22,5 @@
             "email": "codetheorist@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
