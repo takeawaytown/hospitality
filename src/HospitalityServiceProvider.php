@@ -42,12 +42,12 @@ class HospitalityServiceProvider extends ServiceProvider
 
 
             $this->publishes([
-                // __DIR__.'/../migrations/restaurants_setup_users_table.php.stub' => database_path("/migrations/{$timestamp}_restaurants_setup_users_table.php"),
-                // __DIR__.'/../migrations/restaurants_create_restaurants_table.php.stub' => database_path("/migrations/{$timestamp}_restaurants_create_restaurants_table.php"),
-                // __DIR__.'/../migrations/restaurants_create_teams_table.php.stub' => database_path("/migrations/{$timestamp}_restaurants_create_teams_table.php"),
-                // __DIR__.'/../migrations/restaurants_create_restaurant_user_table.php.stub' => database_path("/migrations/{$timestamp}_restaurants_create_restaurant_user_table.php"),
-                // __DIR__.'/../migrations/restaurants_create_team_user_table.php.stub' => database_path("/migrations/{$timestamp}_restaurants_create_team_user_table.php"),
-                // __DIR__.'/../migrations/restaurants_create_invites_table.php.stub' => database_path("/migrations/{$timestamp}_restaurants_create_invites_table.php"),
+                // __DIR__.'/../migrations/hopitality_setup_users_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_setup_users_table.php"),
+                // __DIR__.'/../migrations/hopitality_create_restaurants_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_restaurants_table.php"),
+                // __DIR__.'/../migrations/hopitality_create_teams_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_teams_table.php"),
+                // __DIR__.'/../migrations/hopitality_create_restaurant_user_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_restaurant_user_table.php"),
+                // __DIR__.'/../migrations/hopitality_create_team_user_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_team_user_table.php"),
+                // __DIR__.'/../migrations/hopitality_create_invites_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_invites_table.php"),
             ], 'migrations');
 
     }
