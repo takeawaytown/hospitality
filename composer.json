@@ -1,0 +1,14 @@
+{
+    "name": "takeawaytown/hospitality",
+    "description": "Takeaway Town Hospitality feature library. Enables all the functionality to manage multiple restaurants with menus.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Scott",
+            "email": "codetheorist@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
