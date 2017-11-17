@@ -26,7 +26,7 @@ class HospitalityServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'hospitality');
+        $this->mergeConfigFrom(__DIR__ . '/../src/config/config.php', 'hospitality');
     }
 
     /**
@@ -35,19 +35,14 @@ class HospitalityServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('hospitality.php'),
+                __DIR__.'/../src/config/config.php' => config_path('hospitality.php'),
         ], 'config');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'hospitality');
+        $this->mergeConfigFrom(__DIR__.'/../src/config/config.php', 'hospitality');
 
 
             $this->publishes([
-                // __DIR__.'/../migrations/hopitality_setup_users_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_setup_users_table.php"),
-                // __DIR__.'/../migrations/hopitality_create_restaurants_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_restaurants_table.php"),
-                // __DIR__.'/../migrations/hopitality_create_teams_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_teams_table.php"),
-                // __DIR__.'/../migrations/hopitality_create_restaurant_user_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_restaurant_user_table.php"),
-                // __DIR__.'/../migrations/hopitality_create_team_user_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_team_user_table.php"),
-                // __DIR__.'/../migrations/hopitality_create_invites_table.php.stub' => database_path("/migrations/{$timestamp}_hopitality_create_invites_table.php"),
+
             ], 'migrations');
 
     }
