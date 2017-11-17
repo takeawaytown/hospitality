@@ -22,5 +22,25 @@
             "email": "codetheorist@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "TakeawayTown\\Hospitality\\": "src\\app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TakeawayTown\\Hospitality\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TakeawayTown\\Hospitality\\Providers\\HospitalityServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }

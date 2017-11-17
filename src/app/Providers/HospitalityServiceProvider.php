@@ -7,7 +7,7 @@
  * @package  takeawaytown/hospitality
  */
 
-namespace TakeawayTown\Hospitality;
+namespace TakeawayTown\Hospitality\Providers;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
